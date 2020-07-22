@@ -1,0 +1,23 @@
+
+<div class="row justify-content-center ">
+    <div class="card text-center " style="width: 18rem;">
+      <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- betform-->
+          <form action="">
+            <input type="text" id="login" class="fadeIn first" name="email" [(ngModel)]="Contacto.nombre" placeholder="nombre ">
+            <input type="text" id="name" class="fadeIn second " name="name"[(ngModel)]="Contacto.numero" placeholder="numero">
+            <button type="button" class="btn btn-outline-dark btn-lg btn-block" routerLink="/" routerLinkActivate='true' (click)="edit()" > editar contacto</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
